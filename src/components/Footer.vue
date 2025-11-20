@@ -1,11 +1,12 @@
 <template>
-  <footer class="relative bg-[#080a14] text-gray-300 pt-20 pb-12 overflow-hidden">
+  <footer class="relative bg-gradient-to-r from-[#ffcdb2] via-[#ffb4a2] to-[#e5989b] 
+                 text-[#4a2b2c] pt-20 pb-12 overflow-hidden">
 
+    <!-- Soft Glow -->
     <div class="absolute inset-0 pointer-events-none">
-      <div class="absolute top-[-120px] left-1/2 -translate-x-1/2 
+      <div class="absolute top-[-140px] left-1/2 -translate-x-1/2 
                   w-[700px] h-[700px] 
-                  bg-gradient-to-br from-purple-600/25 via-indigo-500/15 to-transparent 
-                  blur-[180px] rounded-full opacity-70">
+                  bg-white/40 blur-[160px] rounded-full opacity-70">
       </div>
     </div>
 
@@ -13,89 +14,92 @@
 
       <div class="md:flex md:justify-between">
 
+        <!-- Brand -->
         <div class="mb-12 md:mb-0">
           <div class="flex items-center space-x-3">
-            <img 
-              src="https://flowbite.com/docs/images/logo.svg" 
-              class="h-8 drop-shadow-[0_0_8px_rgba(150,100,255,0.4)]" 
-            />
-            <span class="text-white text-2xl font-semibold drop-shadow-[0_0_6px_rgba(255,255,255,0.35)]">
-              PRE-LUV
-            </span>
+            <h1 class="text-5xl sm:text-3xl font-extrabold tracking-tight drop-shadow-sm">
+              <span class="text-[#ffdd]">PRE</span><span class="text-[#4a2b2c]">-LUV</span>
+            </h1>
           </div>
 
-          <p class="text-gray-400 mt-4 text-sm max-w-sm leading-relaxed">
+          <p class="text-[#4a2b2c]/80 mt-4 text-sm max-w-sm leading-relaxed">
             Website pre-loved baju wanita terpercaya abad ini.
           </p>
         </div>
 
+        <!-- Footer Links -->
         <div class="grid grid-cols-2 gap-10 sm:grid-cols-3">
 
           <div>
-            <h2 class="mb-4 text-sm font-semibold text-white/90 uppercase tracking-wide
-                       drop-shadow-[0_0_5px_rgba(180,160,255,0.4)]">
+            <h2 class="mb-4 text-sm font-semibold text-[#4a2b2c] uppercase tracking-wide">
               Resources
             </h2>
-            <ul class="space-y-3 text-gray-400">
-              <li><a class="hover:text-white hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)] transition">Pre-Luv</a></li>
-              <li><a class="hover:text-white hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)] transition">Tailwind CSS</a></li>
+            <ul class="space-y-3 text-[#4a2b2c]/80">
+              <li><a class="hover:text-[#4a2b2c] underline underline-offset-4">Pre-Luv</a></li>
+              <li><a class="hover:text-[#4a2b2c] underline underline-offset-4">Tailwind CSS</a></li>
             </ul>
           </div>
 
           <div>
-            <h2 class="mb-4 text-sm font-semibold text-white/90 uppercase tracking-wide
-                       drop-shadow-[0_0_5px_rgba(180,160,255,0.4)]">
+            <h2 class="mb-4 text-sm font-semibold text-[#4a2b2c] uppercase tracking-wide">
               Follow Us
             </h2>
-            <ul class="space-y-3 text-gray-400">
-              <li><a class="hover:text-white hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)] transition">Github</a></li>
-              <li><a class="hover:text-white hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)] transition">Discord</a></li>
+            <ul class="space-y-3 text-[#4a2b2c]/80">
+              <li><a class="hover:text-[#4a2b2c] underline underline-offset-4">Github</a></li>
+              <li><a class="hover:text-[#4a2b2c] underline underline-offset-4">Instagram</a></li>
             </ul>
           </div>
 
           <div>
-            <h2 class="mb-4 text-sm font-semibold text-white/90 uppercase tracking-wide
-                       drop-shadow-[0_0_5px_rgba(180,160,255,0.4)]">
+            <h2 class="mb-4 text-sm font-semibold text-[#4a2b2c] uppercase tracking-wide">
               Legal
             </h2>
-            <ul class="space-y-3 text-gray-400">
-              <li><a class="hover:text-white hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)] transition">Privacy Policy</a></li>
-              <li><a class="hover:text-white hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.7)] transition">Terms & Conditions</a></li>
+            <ul class="space-y-3 text-[#4a2b2c]/80">
+              <li><a class="hover:text-[#4a2b2c] underline underline-offset-4">Privacy Policy</a></li>
+              <li><a class="hover:text-[#4a2b2c] underline underline-offset-4">Terms & Conditions</a></li>
             </ul>
           </div>
 
         </div>
       </div>
 
+      <!-- Divider -->
       <div class="relative">
-        <hr class="my-12 border-white/10" />
-        <div class="absolute inset-x-0 -top-[1px] h-[1px] bg-gradient-to-r 
-                    from-transparent via-indigo-400/40 to-transparent"></div>
+        <hr class="my-12 border-white/40" />
       </div>
 
+      <!-- Bottom -->
       <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
 
-        <span class="text-sm text-gray-500">
-          © 2025 <span class="text-gray-300">Pre-Luv™</span>. All Rights Reserved.
+        <span class="text-sm text-[#4a2b2c]/70">
+          © 2025 <span class="font-semibold text-[#4a2b2c]">Pre-Luv™</span>. All Rights Reserved.
         </span>
 
- 
-        <div class="flex space-x-6 mt-6 sm:mt-0">
+        <!-- Social Icons -->
+        <div class="flex space-x-6 mt-6 sm:mt-0 text-[#4a2b2c]/70">
 
-          <a class="text-gray-400 hover:text-white transition hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.7)]">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M13.135 6H..." /></svg>
+          <a class="hover:text-[#4a2b2c]">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M13.135 6H..." />
+            </svg>
           </a>
 
-          <a class="text-gray-400 hover:text-white transition hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.7)]">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M18.942 5.556..." /></svg>
+          <a class="hover:text-[#4a2b2c]">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M18.942 5.556..." />
+            </svg>
           </a>
 
-          <a class="text-gray-400 hover:text-white transition hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.7)]">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M13.795 10.533..." /></svg>
+          <a class="hover:text-[#4a2b2c]">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M13.795 10.533..." />
+            </svg>
           </a>
 
-          <a class="text-gray-400 hover:text-white transition hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.7)]">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.006 2..." /></svg>
+          <a class="hover:text-[#4a2b2c]">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12.006 2..." />
+            </svg>
           </a>
 
         </div>

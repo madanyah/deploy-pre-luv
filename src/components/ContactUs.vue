@@ -1,32 +1,40 @@
 <template>
-  <section class="relative py-28 bg-[#0a0c18] overflow-hidden">
+  <section 
+    class="relative isolate px-6 pt-32 pb-32 lg:px-8
+           bg-gradient-to-r from-[#b5828c] via-[#e5989b] to-[#ffcdb2]">
 
-    <div class="absolute inset-0 bg-gradient-to-b 
-                from-[#14172b]/60 via-[#101225]/40 to-[#0a0c18]"></div>
-
-    <div class="absolute top-[-150px] left-1/2 -translate-x-1/2 
-                w-[600px] h-[600px] 
-                bg-purple-600/20 blur-[180px] rounded-full opacity-70">
+    <!-- Glow Soft Pink -->
+    <div aria-hidden="true"
+      class="absolute inset-0 -z-10 overflow-hidden">
+      <div
+        class="absolute left-1/2 top-[-12rem] w-[70rem] h-[70rem]
+               -translate-x-1/2 rounded-full blur-[140px]
+               bg-[#ffb4a2]/50 opacity-40">
+      </div>
     </div>
 
     <div class="relative max-w-5xl mx-auto px-6 text-center">
 
-     
+      <!-- Badge -->
       <div class="inline-block px-5 py-2 mb-6 rounded-full 
-                  border border-white/10 
-                  bg-white/5 backdrop-blur
-                  text-gray-300 text-sm">
+                  border border-white/40 
+                  bg-white/30 backdrop-blur-md
+                  text-[#5a2d2d] text-sm font-medium shadow-sm">
         Contact Us
       </div>
 
-    
-      <h1 class="text-4xl md:text-5xl font-bold text-white 
-                 tracking-tight drop-shadow-[0_0_10px_rgba(180,160,255,0.3)]">
+      <!-- Title -->
+      <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight
+                 text-[#4a2b2c] drop-shadow-sm">
         Let’s Connect With Our Team
       </h1>
 
-      <p class="mt-5 max-w-2xl mx-auto text-gray-400 text-lg leading-relaxed">
-        Kami siap membantu Anda dalam mencari baju preloved dengan kualitas terjamin. Hubungi kami untuk konsultasi atau informasi lebih lanjut.
+      <!-- Subtext -->
+      <p class="mt-5 max-w-2xl mx-auto text-lg leading-relaxed
+                text-[#4a2b2c]/80">
+        Kami siap membantu Anda menemukan pakaian preloved terbaik
+        dengan kualitas premium serta harga yang tetap terjangkau.
+        Jangan ragu untuk menghubungi kami untuk informasi lebih lanjut.
       </p>
 
     </div>
