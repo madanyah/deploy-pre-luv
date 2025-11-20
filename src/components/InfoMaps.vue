@@ -3,7 +3,6 @@
     class="relative isolate px-6 pt-32 pb-32 lg:px-8
            bg-gradient-to-r from-[#ffcdb2] via-[#ffb4a2] to-[#e5989b]">
 
-    <!-- Soft Glow -->
     <div aria-hidden="true" class="absolute inset-0 -z-10 overflow-hidden">
       <div
         class="absolute left-1/2 top-[-12rem] w-[70rem] h-[70rem]
@@ -14,7 +13,6 @@
 
     <div class="relative max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-14">
 
-      <!-- MAPS -->
       <div class="rounded-2xl overflow-hidden shadow-xl 
                   border border-white/40 bg-white/40 
                   backdrop-blur-xl">
@@ -29,11 +27,9 @@
         </iframe>
       </div>
 
-      <!-- CONTACT INFO -->
       <div class="bg-white/40 border border-white/40 rounded-2xl 
                   p-10 backdrop-blur-xl shadow-xl">
 
-        <!-- Title -->
         <h2 class="text-3xl font-bold text-[#4a2b2c]">
           Contact Information
         </h2>
@@ -45,7 +41,6 @@
 
         <div class="space-y-8">
 
-          <!-- Phone -->
           <div class="flex items-start space-x-4">
             <div class="p-3 rounded-xl bg-white/60 border border-white/60 
                         backdrop-blur text-[#b05a63] 
@@ -58,7 +53,6 @@
             </div>
           </div>
 
-          <!-- Email -->
           <div class="flex items-start space-x-4">
             <div class="p-3 rounded-xl bg-white/60 border border-white/60 
                         backdrop-blur text-[#b05a63] 
@@ -71,7 +65,6 @@
             </div>
           </div>
 
-          <!-- Website -->
           <div class="flex items-start space-x-4">
             <div class="p-3 rounded-xl bg-white/60 border border-white/60 
                         backdrop-blur text-[#b05a63] 
@@ -84,7 +77,6 @@
             </div>
           </div>
 
-          <!-- Address -->
           <div class="pt-6 border-t border-white/40">
             <p class="text-[#4a2b2c] font-semibold mb-2">Office Address</p>
             <p class="text-[#4a2b2c]/70 leading-relaxed">

@@ -3,7 +3,6 @@
     class="relative isolate px-6 pt-32 pb-32 lg:px-8
            bg-gradient-to-r from-[#b5828c] via-[#e5989b] to-[#ffcdb2]">
 
-    <!-- Glow Soft Pink -->
     <div aria-hidden="true"
       class="absolute inset-0 -z-10 overflow-hidden">
       <div
@@ -13,7 +12,6 @@
       </div>
     </div>
 
-    <!-- Soft Purple Glow -->
     <div class="absolute -top-24 left-1/2 -translate-x-1/2 
                 w-[400px] h-[400px] 
                 bg-[#d78ad0]/20 
@@ -21,7 +19,6 @@
 
     <div class="relative max-w-6xl mx-auto px-6 text-center">
 
-      <!-- Badge -->
       <div class="inline-block px-5 py-2 rounded-full 
                   border border-white/40 
                   bg-white/30 text-[#5a2d2d] text-sm font-medium
@@ -29,23 +26,19 @@
         Fashion Preloved Wanita
       </div>
 
-      <!-- Title -->
       <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight
                  text-[#4a2b2c] drop-shadow-sm">
         Woman Solutions <br />
         for Wanita Hebat Abad Ini.
       </h2>
 
-      <!-- Subtext -->
       <p class="mt-6 max-w-3xl mx-auto text-[#4a2b2c]/80 text-lg leading-relaxed">
         PRE-LUV adalah tempat terbaik untuk menemukan pakaian preloved wanita,
         kualitas premium, harga terjangkau, dan gaya kekinian.
       </p>
 
-      <!-- Cards -->
       <div class="grid md:grid-cols-3 gap-8 mt-16">
 
-        <!-- Card 1 -->
         <div class="bg-white/60 border border-white/50 shadow-lg
                     rounded-2xl p-8 text-left backdrop-blur-xl
                     hover:bg-white/80 transition">
@@ -55,7 +48,6 @@
           </p>
         </div>
 
-        <!-- Card 2 -->
         <div class="bg-white/60 border border-white/50 shadow-lg
                     rounded-2xl p-8 text-left backdrop-blur-xl
                     hover:bg-white/80 transition">
@@ -65,7 +57,6 @@
           </p>
         </div>
 
-        <!-- Card 3 (biar balance) -->
         <div class="bg-white/60 border border-white/50 shadow-lg
                     rounded-2xl p-8 text-left backdrop-blur-xl
                     hover:bg-white/80 transition">
