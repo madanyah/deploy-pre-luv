@@ -1,11 +1,13 @@
 <template>
-  <footer class="relative bg-gradient-to-r from-[#ffcdb2] via-[#ffb4a2] to-[#e5989b] 
-                 text-[#4a2b2c] pt-20 pb-12 overflow-hidden">
+  <footer class="relative isolate px-6 pt-10 pb-10 lg:px-8
+           bg-gradient-to-r from-[#b5828c] via-[#e5989b] to-[#ffcdb2]">
 
-    <div class="absolute inset-0 pointer-events-none">
-      <div class="absolute top-[-140px] left-1/2 -translate-x-1/2 
-                  w-[700px] h-[700px] 
-                  bg-white/40 blur-[160px] rounded-full opacity-70">
+    <div aria-hidden="true"
+      class="absolute inset-0 -z-10 overflow-hidden">
+      <div
+        class="absolute left-1/2 top-[-12rem] w-[70rem] h-[70rem]
+               -translate-x-1/2 rounded-full blur-[140px]
+               bg-[#ffb4a2]/50 opacity-40">
       </div>
     </div>
 

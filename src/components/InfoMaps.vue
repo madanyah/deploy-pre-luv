@@ -1,13 +1,14 @@
 <template>
   <section 
-    class="relative isolate px-6 pt-32 pb-32 lg:px-8
-           bg-gradient-to-r from-[#ffcdb2] via-[#ffb4a2] to-[#e5989b]">
+    class="relative isolate px-6 pt-10 pb-10 lg:px-8
+           bg-gradient-to-r from-[#b5828c] via-[#e5989b] to-[#ffcdb2]">
 
-    <div aria-hidden="true" class="absolute inset-0 -z-10 overflow-hidden">
+    <div aria-hidden="true"
+      class="absolute inset-0 -z-10 overflow-hidden">
       <div
         class="absolute left-1/2 top-[-12rem] w-[70rem] h-[70rem]
-               -translate-x-1/2 rounded-full blur-[150px]
-               bg-white/40 opacity-40">
+               -translate-x-1/2 rounded-full blur-[140px]
+               bg-[#ffb4a2]/50 opacity-40">
       </div>
     </div>
 
@@ -17,14 +18,15 @@
                   border border-white/40 bg-white/40 
                   backdrop-blur-xl">
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15954.829245850146!2d116.8287996!3d-1.1494921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df147f8c18be3f5%3A0x1acb51c6e4e4c873!2sInstitut%20Teknologi%20Kalimantan!5e0!3m2!1sen!2sid!4v1715860500000!5m2!1sen!2sid" 
-            width="600" 
-            height="450" 
-            style="border:0;" 
-            allowfullscreen
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15954.829245850146!2d116.8287996!3d-1.1494921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df147f8c18be3f5%3A0x1acb51c6e4e4c873!2sInstitut%20Teknologi%20Kalimantan!5e0!3m2!1sen!2sid!4v1715860500000!5m2!1sen!2sid"
+          width="600"
+          height="450"
+          class="border-0 w-full h-[450px] rounded-xl"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
         </iframe>
+
       </div>
 
       <div class="bg-white/40 border border-white/40 rounded-2xl 
